@@ -1,0 +1,30 @@
+.header {
+  .container {
+    align-items: center;
+    display: flex;
+  }
+  &-top {
+    padding: 12px 0;
+    &__user-nav {
+      margin-left: auto;
+    }
+    &__location {
+      margin-right: 80px;
+    }
+  }
+  &-main {
+    background-color: $dark-bg-color;
+    color: $white;
+    padding: 20px 0;
+    .container{
+      & > * {
+        &:not(:last-child){
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+  &__basket-prev {
+    margin-left: auto;
+  }
+}

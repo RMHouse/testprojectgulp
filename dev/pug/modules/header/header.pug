@@ -1,0 +1,25 @@
+header.header
+  .header-top
+    .container
+      .location.header-top__location
+        .location__header
+          +icon('map', 'location__icon')
+          span.location__current Нижний Новгород
+        .location__body
+      include ../navigation/main-nav
+      .user-nav.header-top__user-nav
+        a(href="").user-nav__link Войти 
+  .header-main
+    .container
+      .logo
+        img(src="static/images/general/logo.svg", alt="logo").logo__img
+        span.logo__text Продажа стройматериалов
+      include ../navigation/catalog-nav
+      .search.header-main__search
+        input(type="text", placeholder="Артикул или названеи товара").input-field.input-field--size-small
+        +icon('search', 'search__icon')
+      .order-callback.header-main__order-callback
+        span.order-callback__description Звоните круглосуточно
+        a(href="tel:+74993348888").order-callback__phone + 7 499 334-88-88
+        a(href="").order-callback__link Заказать звонок
+      include ../basket/basket-prev

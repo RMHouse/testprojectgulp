@@ -1,0 +1,44 @@
+
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src: url('../fonts/SourceSansPro/SourceSansPro-Regular.eot');
+	src: local('../fonts/SourceSansPro/Source Sans Pro Regular'), local('../fonts/SourceSansPro/SourceSansPro-Regular'),
+		url('../fonts/SourceSansPro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+		url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Black';
+	src: url('../fonts/SourceSansPro/SourceSansPro-Black.eot');
+	src: local('../fonts/SourceSansPro/Source Sans Pro Black'), local('../fonts/SourceSansPro/SourceSansPro-Black'),
+		url('../fonts/SourceSansPro/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SourceSansPro/SourceSansPro-Black.woff') format('woff'),
+		url('../fonts/SourceSansPro/SourceSansPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Bold';
+	src: url('../fonts/SourceSansPro/SourceSansPro-Bold.eot');
+	src: local('../fonts/SourceSansPro/Source Sans Pro Bold'), local('../fonts/SourceSansPro/SourceSansPro-Bold'),
+		url('../fonts/SourceSansPro/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SourceSansPro/SourceSansPro-Bold.woff') format('woff'),
+		url('../fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-SemiBold';
+	src: url('../fonts/SourceSansPro/SourceSansPro-SemiBold.eot');
+	src: local('../fonts/SourceSansPro/Source Sans Pro SemiBold'), local('../fonts/SourceSansPro/SourceSansPro-SemiBold'),
+		url('../fonts/SourceSansPro/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SourceSansPro/SourceSansPro-SemiBold.woff') format('woff'),
+		url('../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}

@@ -1,0 +1,32 @@
+.sandwich {
+  cursor: pointer;
+  height: 14px;
+  position: relative;
+  width: 23px;
+//   @media screen and (max-width: $tablet-wide) { display: block; }
+  &--active {
+    .sandwich__line {
+      &--top {
+        top: 6px;
+        transform: rotate(45deg);
+      }
+      &--middle { opacity: 0; }
+      &--bottom {
+        top: 6px;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+  &__line {
+    background-color: $white;
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: all linear .4s;
+    width: 100%;
+    &--top { top: 0; }
+    &--middle { top: 6px; }
+    &--bottom { top: 12px; }
+  }
+}
